@@ -1,0 +1,912 @@
+[
+ {
+  "id": "dds-aayah",
+  "term": "aayah",
+  "pos": "interj.",
+  "meaningEn": "Used to express sadness or sympathy. Sometimes used sardonically to make its victim the butt of contempt or ridicule, as when supporters of the Barrole football team, for example, would sing “Aayah, aayah, Barrole got the game,” whenever their team was winning.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-asstray",
+  "term": "asstray",
+  "pos": "n.",
+  "meaningEn": "1. Foolish behavior or speech. 2. Absurd or ridiculous action. 3. Insignificant or trivial pursuits.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-beat-my-time",
+  "term": "beat my time",
+  "pos": "tr. v.",
+  "meaningEn": "To acknowledge defeat at the hands of a rival: “I thought I like zooting business, but you beat my time.”",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-big-big-words",
+  "term": "big, big words",
+  "pos": "n.",
+  "meaningEn": "Highfalutin, pompous or pretentious vocabulary. Suggests disapproval for the use of uncommon terms in a context where common words would do.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-biggity",
+  "term": "biggity",
+  "pos": "adj.",
+  "meaningEn": "Arrogance; sense of self-importance, as in “you full of biggity.”",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-book-business",
+  "term": "book business",
+  "pos": "n.",
+  "meaningEn": "Formal or Western education.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-bookish",
+  "term": "bookish",
+  "pos": "n.",
+  "meaningEn": "Studious.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-call-me-dog",
+  "term": "call me dog",
+  "pos": "idiom.",
+  "meaningEn": "A declaration assuring that one will or will not do something; a vow: “If I speak to you again, you muh call me dog.” [Reflects the low regard in which dogs are held.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-calopay",
+  "term": "calopay",
+  "pos": "tr. v.",
+  "meaningEn": "1. To cause an opponent to lose balance in sports, especially in wrestling. 2. To engage in sexual acrobatics. [1960>]",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-cat-eye",
+  "term": "cat eye",
+  "pos": "n.",
+  "meaningEn": "Light-colored human pupils, especially light brown, hazel or green.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-chop-money",
+  "term": "chop money",
+  "pos": "v.",
+  "meaningEn": "To misappropriate funds from other people or from institutions, especially the government. [See also eat money.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-chop",
+  "term": "chop",
+  "pos": null,
+  "meaningEn": "1. v. To eat. 2. n. any food or edible dish, especially if cooked.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-coloh-boi",
+  "term": "coloh boi",
+  "pos": "n.",
+  "meaningEn": "1. African-American man, especially a hipster. 2. Liberian man acting like an American, especially a hipster. [1940> Derived from colored boy. Probably came into use in 1940s when African-American troops were stationed at Robertsfield airport.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-congosah",
+  "term": "congosah",
+  "pos": "v.",
+  "meaningEn": "To gossip. [1960>]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-crackay",
+  "term": "crackay",
+  "pos": "adj.",
+  "meaningEn": "Affected by mild mental derangement.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-dash",
+  "term": "dash",
+  "pos": "n.",
+  "meaningEn": "1. A gift. 2. A bonus or discount given by vendors to wholesale customers. 3. A bribe. [from Portuguese; common in West African English from Sierra Leone to Cameroon.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-didibah",
+  "term": "didibah",
+  "pos": "n.",
+  "meaningEn": "The act or process of corrupting.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-don-t-lee-me-dis-way",
+  "term": "don’t lee me dis way",
+  "pos": "n.",
+  "meaningEn": "Platform shoes or shoes with extremely high heels. Based on tendency for heels of platform shoes to become separated from the soles – and the person wearing the shoes! [Arose in the 1970s, when an R & B song titled “Don’t Leave Me this Way” by Thelma Houston was popular.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-dress-sharp",
+  "term": "dress sharp",
+  "pos": "v.",
+  "meaningEn": "To dress stylishly.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-dux",
+  "term": "dux",
+  "pos": "n.",
+  "meaningEn": "valedictorian.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-eat-money",
+  "term": "eat money",
+  "pos": "v.",
+  "meaningEn": "To misappropriate funds from other people or from institutions, especially the government. [See also chop money.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-fish",
+  "term": "fish",
+  "pos": "n.",
+  "meaningEn": "Vagina.",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-for-true",
+  "term": "for true",
+  "pos": "adv.",
+  "meaningEn": "1. Really. 2. Not feigned or affected; genuine.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-gehdah",
+  "term": "gehdah",
+  "pos": "n.",
+  "meaningEn": "Rumor or talk of a personal, sensational, or intimate nature. [1980>]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-grumbo-picken",
+  "term": "grumbo picken",
+  "pos": "n.",
+  "meaningEn": "A confusionist or troublemaker. Although the phrase contains the word picken (meaning “child” or “young person”), it does not imply an age marker.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-grumbo",
+  "term": "grumbo",
+  "pos": "n.",
+  "meaningEn": "1. A loud quarrel. 2. The act of confronting or the state of being confronted, especially a meeting face to face. 3. An emotionally heated dispute, especially a public one, between sides holding opposing views. 4. The act or practice of engaging in such disputes. [1960>]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-hala-hala",
+  "term": "hala-hala",
+  "pos": "n.",
+  "meaningEn": "Loud, angry talking; yelling, especially if done in the context of an argument.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-holin",
+  "term": "holin’",
+  "pos": "v.",
+  "meaningEn": "To be sexually well endowed. [Derived from Standard English holding, as in “to possess something valuable.”]",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-hopojo",
+  "term": "hopojo",
+  "pos": "n.",
+  "meaningEn": "A prostitute. [1940>]",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-i-yon-taytay",
+  "term": "i-yon taytay",
+  "pos": "n.",
+  "meaningEn": "Upright, nubile breasts. [Qualifier i-yon, derived from Standard English iron, is used to suggest an exaggerated sense of firmness.]",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-jack",
+  "term": "Jack",
+  "pos": "n.",
+  "meaningEn": "1. A fool or one who is regarded as deficient in judgment, sense, or understanding: “Do I look like a Jack?” 2. A dupe or one who has been tricked or made to look ridiculous.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-jahfeh",
+  "term": "jahfeh",
+  "pos": "n.",
+  "meaningEn": "Money. [1980>]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-knock-down",
+  "term": "knock down",
+  "pos": "v.",
+  "meaningEn": "To engage in sexual activity, especially when the doer of the action being describe is a man: “He use to knock her down before.”",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-krokrogee",
+  "term": "krokrogee",
+  "pos": "n.",
+  "meaningEn": "The act or process of corrupting.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-kukujumuku",
+  "term": "kukujumuku",
+  "pos": "n.",
+  "meaningEn": "1. A loud quarrel. 2. The act of confronting or the state of being confronted, especially a meeting face to face. 3. An emotionally heated dispute, especially a public one, between sides holding opposing views. 4. The act or practice of engaging in such disputes. [1980>]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-lappa",
+  "term": "lappa",
+  "pos": "n.",
+  "meaningEn": "A cloth wrap widely used by a woman to cover her body from the waist down. [In some other parts of West Africa, this wrap is known as a rappa.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-lappalonian",
+  "term": "lappalonian",
+  "pos": "n.",
+  "meaningEn": "A man who exercises little or no discretion in his choice of sexual partners. [1940> Derived from lappa, the cloth wraps widely used by women to cover their bodies from the waist down.]",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-manna-me",
+  "term": "manna me",
+  "pos": "tr. v.",
+  "meaningEn": "1. To confound. 2. To cause to become confused or perplexed. 3. To frustrate. 4. To acknowledge defeat by a problem: “Dis odder math problem manna me for true.”",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-monger",
+  "term": "monger",
+  "pos": "n.",
+  "meaningEn": "Rumor or talk of a personal, sensational, or intimate nature. v. To gossip.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-noko",
+  "term": "noko",
+  "pos": "n.",
+  "meaningEn": "A soldier, especially a private. [1950>]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-pawtoh-pawtoh",
+  "term": "pawtoh pawtoh",
+  "pos": "n.",
+  "meaningEn": "sticky, soft soil, especially after heavy rain. [Onomatopoeic, from sound made by feet sloshing in and out of mud.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-picken",
+  "term": "picken",
+  "pos": "n.",
+  "meaningEn": "A child or person who is younger than the speaker. [Related to pickaninny, used as a disparaging term for a young Black child; possibly derived from Portuguese pequenino, diminutive of pequeno, small.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-roko",
+  "term": "roko",
+  "pos": "n.",
+  "meaningEn": "A shabbily dressed man who is unemployed or engaged in questionable employment. [1950>]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-sabe",
+  "term": "sabe",
+  "pos": "v.",
+  "meaningEn": "1. To know. 2. To be clever or think one is being clever. 3. To use knowledge for selfish ends. [from Portuguese; common in West African English from Sierra Leone to Cameroon.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-selfish",
+  "term": "selfish",
+  "pos": "adj.",
+  "meaningEn": "Used to describe someone who does not give into the wishes or demands of the speaker: “Dat girl selfish so” might be .",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-shako",
+  "term": "shako",
+  "pos": "v.",
+  "meaningEn": "To dress stylishly.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-shine-shine",
+  "term": "shine-shine",
+  "pos": "adj.",
+  "meaningEn": "Gaudy, metallic-looking or highly reflective clothing, often connoting cheap quality.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-soak-tongue",
+  "term": "soak tongue",
+  "pos": "v.",
+  "meaningEn": "To drink an alcoholic beverage. To become intoxicated.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-sofly-sofly",
+  "term": "sofly, sofly",
+  "pos": null,
+  "meaningEn": "idiom, equivalent to American “easy does it” or “one step at a time.”",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-stickee-plastuh",
+  "term": "stickee plastuh",
+  "pos": "n.",
+  "meaningEn": "1 Someone who will not go away, although his/her company is not wanted. 2. Someone who is hovering. [Derived from sticky plaster, a descriptive phrase used as a synonym for Band Aid.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-swee-in-yor-muf",
+  "term": "swee in yor muf",
+  "pos": "idiom.",
+  "meaningEn": "1. A taste of any kind, including aural and visual arrangements, to which one has become addicted or habituated: “Dat song swee in yor muf nah, ehn?”. 2. An oft-repeated word: “My name swee in yor muf, ehn? You betteh take it frun der.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-swee-muder",
+  "term": "Swee Muder",
+  "pos": "n.",
+  "meaningEn": "1. Kool Aid popsicles hawked by street vendors, especially near Waterside bus depot in Monrovia; so called because popsicles were shaped like breasts in conformity to the corners of the plastic baggies in which they were frozen. 2. Platform shoes or shoes with extremely high heels; derived from photo of Prince Nicko on the cover of his album titled “Sweet Mother.” [Arose in the 1970s, when “Sweet Mother” by Prince Nicko and the Rocafi Jazz Band enjoyed widespread popularity.]",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-taytay",
+  "term": "taytay",
+  "pos": "n.",
+  "meaningEn": "Female breasts, especially if still lactating.",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-tinapaw",
+  "term": "tinapaw",
+  "pos": "n.",
+  "meaningEn": "Canned mackrel. [Derived from the “Tin Apple” trade mark, which was one of the earliest brands of canned mackrel marketed in Liberia. This brand, which features the image of an apple and the words “Tin Apple” on the label, is still sold in Hispanic-oriented grocery stores and supermarkets in the United States.]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-today-person",
+  "term": "today person",
+  "pos": "n.",
+  "meaningEn": "One who is naïve, credulous, uncritical or childlike in judgment. Usually used in the negative form as in, “you not today person.” Similar to the American expression, “he wasn’t born yesterday.”",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-tomato-color",
+  "term": "tomato color",
+  "pos": null,
+  "meaningEn": "1. adj. Light skinned. 2. n. Mulatto.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-true-true",
+  "term": "true, true",
+  "pos": "adj.",
+  "meaningEn": "pure, without adulteration: “Dat true, true ting Ah talking so.”",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-tumba",
+  "term": "tumba",
+  "pos": null,
+  "meaningEn": "1. n. Fleshy, shapely female buttocks. 2. n. an accumulation of fat on the buttocks associated with Black women known scientifically as steatopygia.",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-uklay",
+  "term": "uklay",
+  "pos": "adj.",
+  "meaningEn": "Unattractive, but also distasteful: “Dat movie too uklay.”",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-wahala",
+  "term": "wahala",
+  "pos": "n.",
+  "meaningEn": "1. A loud quarrel. 2.. An emotionally heated dispute, especially a public one, between sides holding opposing views. 3. The act or practice of engaging in such disputes. [1970>]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-wata-poleece",
+  "term": "wata poleece",
+  "pos": "n.",
+  "meaningEn": "A prostitute. [1960> from Standard English water police, derived from presence of prostitutes along the water front near the Free Port on Bushrod Island, Monrovia.]",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-wayo",
+  "term": "wayo",
+  "pos": "n.",
+  "meaningEn": "A prostitute. [1970>]",
+  "category": "word",
+  "register": "vulgar",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-zam",
+  "term": "zam",
+  "pos": "n.",
+  "meaningEn": "1. A fool or one who is regarded as deficient in judgment, sense, or understanding. 2. A dupe or one who has been tricked or made to look ridiculous.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-zepsay",
+  "term": "zepsay",
+  "pos": "adj.",
+  "meaningEn": "Affected by mental derangement.",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ },
+ {
+  "id": "dds-zoot",
+  "term": "zoot",
+  "pos": "v.",
+  "meaningEn": "To dress stylishly. [1940>]",
+  "category": "word",
+  "register": "informal",
+  "sources": [
+   {
+    "name": "Dee Dot Sherm — Liberian English 101",
+    "url": "https://deedotsherm.wordpress.com/2011/02/23/liberian-english-101/"
+   }
+  ]
+ }
+]

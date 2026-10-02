@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lib-blue: #002868;
+  --color-lib-red: #bf0a30;
+}
+
+html, body, #root { height: 100%; }
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-tap-highlight-color: transparent; }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
