@@ -7,6 +7,7 @@ interface Answer {
   text: string
   sources: { title: string; uri: string }[]
   queries?: string[]
+  grounded?: boolean
 }
 
 export default function Ask() {
@@ -47,6 +48,11 @@ export default function Ask() {
         {error && <p className="text-sm text-red-600">{error}</p>}
         {answer && (
           <Card>
+            {answer.grounded === false && (
+              <p className="mb-2 rounded-lg bg-amber-50 p-2 text-xs text-amber-800">
+                {t({ fr: "Recherche Google indisponible (quota de la clé) : réponse de l'IA sans sources en temps réel.", en: 'Google Search unavailable (key quota): AI answer without real-time sources.' })}
+              </p>
+            )}
             <p className="whitespace-pre-wrap text-sm">{answer.text}</p>
             {answer.sources.length > 0 && (
               <div className="mt-3 border-t border-slate-100 pt-2 text-xs">

@@ -168,6 +168,7 @@ export async function searchTikTok(queries: string[], log: Log): Promise<Content
       const g = await groundedSearch(
         `Search the web for recent public TikTok videos and accounts teaching or using Liberian English / Koloqua (keywords: ${queries.join(', ')}). ` +
           'List the creators, what each video teaches, and quote every Koloqua word or phrase with its meaning.',
+        true,
       )
       log(`TikTok via Google Search: ${g.sources.length} sources`)
       return [{ key: `tt-google:${new Date().toISOString().slice(0, 10)}`, platform: 'tiktok', title: 'TikTok creators (Google Search)', url: g.sources[0]?.uri ?? 'https://www.tiktok.com/tag/koloqua', text: g.text }]
@@ -219,7 +220,7 @@ export async function searchGoogle(accounts: string[], log: Log): Promise<Conten
   const out: ContentItem[] = []
   for (const p of prompts) {
     try {
-      const g = await groundedSearch(p)
+      const g = await groundedSearch(p, true)
       log(`Google Search: ${g.sources.length} sources`)
       out.push({ key: `google:${p.slice(0, 30)}:${new Date().toISOString().slice(0, 10)}`, platform: 'google', title: g.queries[0] ?? 'Google Search', url: g.sources[0]?.uri ?? '', text: g.text })
     } catch (e) {

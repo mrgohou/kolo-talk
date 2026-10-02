@@ -32,7 +32,7 @@ export const ACCOUNTS = [
 export const env = {
   port: Number(process.env.PORT ?? 8787),
   geminiKey: process.env.GEMINI_API_KEY ?? process.env.GOOGLE_API_KEY ?? '',
-  geminiModel: process.env.GEMINI_MODEL ?? 'gemini-2.5-flash',
+  geminiModel: process.env.GEMINI_MODEL ?? 'gemini-flash-latest',
   youtubeKey: process.env.YOUTUBE_API_KEY ?? '',
   tiktokClientKey: process.env.TIKTOK_CLIENT_KEY ?? '',
   tiktokClientSecret: process.env.TIKTOK_CLIENT_SECRET ?? '',

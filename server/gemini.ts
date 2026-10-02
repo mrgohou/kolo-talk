@@ -5,6 +5,29 @@ let client: GoogleGenAI | null = null
 export const hasGemini = () => Boolean(env.geminiKey)
 const ai = () => (client ??= new GoogleGenAI({ apiKey: env.geminiKey }))
 
+const FALLBACK_MODELS = ['gemini-flash-latest', 'gemini-3.5-flash-lite', 'gemini-3.1-flash-lite']
+const models = () => [...new Set([env.geminiModel, ...FALLBACK_MODELS])]
+const status = (e: unknown) => Number(String((e as Error).message).match(/"code":\s*(\d{3})/)?.[1] ?? 0)
+
+/** Calls Gemini, retrying transient 5xx errors and falling back to lighter models when one is overloaded. */
+async function generate(params: Omit<Parameters<GoogleGenAI['models']['generateContent']>[0], 'model'>) {
+  let last: unknown
+  for (const model of models()) {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        return await ai().models.generateContent({ ...params, model })
+      } catch (e) {
+        last = e
+        const code = status(e)
+        if (code === 429 || code === 404) break
+        if (code < 500) throw e
+        await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)))
+      }
+    }
+  }
+  throw last
+}
+
 export interface Extracted {
   term: string
   meaningEn: string
@@ -37,8 +60,7 @@ function parseJsonArray(text: string): unknown[] {
 }
 
 export async function extractExpressions(content: string, known: string[]): Promise<Extracted[]> {
-  const res = await ai().models.generateContent({
-    model: env.geminiModel,
+  const res = await generate({
     contents: `${EXTRACT_PROMPT}\n\nKNOWN: ${known.slice(0, 400).join(', ')}\n\nCONTENT:\n${content.slice(0, 20000)}`,
     config: { responseMimeType: 'application/json', temperature: 0.2 },
   })
@@ -49,25 +71,31 @@ export interface Grounded {
   text: string
   sources: { title: string; uri: string }[]
   queries: string[]
+  grounded: boolean
 }
 
-/** Gemini answer grounded with real-time Google Search results. */
-export async function groundedSearch(prompt: string): Promise<Grounded> {
-  const res = await ai().models.generateContent({
-    model: env.geminiModel,
-    contents: prompt,
-    config: { tools: [{ googleSearch: {} }], temperature: 0.3 },
-  })
-  const meta = res.candidates?.[0]?.groundingMetadata
-  const sources = (meta?.groundingChunks ?? [])
-    .map((c) => ({ title: c.web?.title ?? c.web?.uri ?? '', uri: c.web?.uri ?? '' }))
-    .filter((s) => s.uri)
-  return { text: res.text ?? '', sources, queries: meta?.webSearchQueries ?? [] }
+/**
+ * Gemini answer grounded with real-time Google Search results.
+ * Google Search grounding needs a billing-enabled key; when its quota is unavailable we answer
+ * from the model alone (grounded: false) unless `requireGrounding` is set.
+ */
+export async function groundedSearch(prompt: string, requireGrounding = false): Promise<Grounded> {
+  try {
+    const res = await generate({ contents: prompt, config: { tools: [{ googleSearch: {} }], temperature: 0.3 } })
+    const meta = res.candidates?.[0]?.groundingMetadata
+    const sources = (meta?.groundingChunks ?? [])
+      .map((c) => ({ title: c.web?.title ?? c.web?.uri ?? '', uri: c.web?.uri ?? '' }))
+      .filter((s) => s.uri)
+    return { text: res.text ?? '', sources, queries: meta?.webSearchQueries ?? [], grounded: true }
+  } catch (e) {
+    if (requireGrounding || status(e) !== 429) throw e
+    const res = await generate({ contents: prompt, config: { temperature: 0.3 } })
+    return { text: res.text ?? '', sources: [], queries: [], grounded: false }
+  }
 }
 
 export async function translateToFrench(term: string, text: string): Promise<string> {
-  const res = await ai().models.generateContent({
-    model: env.geminiModel,
+  const res = await generate({
     contents: `Translate this English definition of the Liberian English term "${term}" into natural French. Reply with the translation only.\n\n${text}`,
     config: { temperature: 0.1 },
   })
