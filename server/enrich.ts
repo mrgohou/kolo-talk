@@ -45,7 +45,7 @@ export async function runEnrichment(): Promise<Run> {
       searchKoloHQ(log),
       searchGoogle(ACCOUNTS, log),
     ])
-    const fresh = batches.flat().filter((i) => !seen.has(i.key))
+    const fresh = [...new Map(batches.flat().filter((i) => !seen.has(i.key)).map((i) => [i.key, i])).values()]
     r.found = fresh.length
     const have = new Set(db.discovered.map((d) => d.key))
     for (const i of fresh) {
