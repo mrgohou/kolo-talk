@@ -1,2 +1,2 @@
-# kolospeak231
+# kolo-talk
 Liberia English Koruqua learning app
